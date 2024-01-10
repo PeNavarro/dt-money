@@ -1,36 +1,36 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento Site",
-            "type": "income",
-            "category": "Venda",
-            "price": 1400,
-            "createdAt": "2024-01-10T13:40:30.777Z"
-        },
-        {
-            "id": 2,
-            "description": "Comprar cota",
-            "type": "outcome",
-            "category": "Compra",
-            "price": 100,
-            "createdAt": "2024-01-10T13:40:30.777Z"
-        },
-        {
-            "id": 3,
-            "description": "Conta de água",
-            "type": "outcome",
-            "category": "Boletos",
-            "price": 200,
-            "createdAt": "2024-01-10T13:40:30.777Z"
-        },
-        {
-            "id": 4,
-            "description": "Aposta da Blaze",
-            "type": "income",
-            "category": "Aposta",
-            "price": 580,
-            "createdAt": "2024-01-10T13:40:30.777Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Desenvolvimento Site",
+      "type": "income",
+      "category": "Venda",
+      "price": "1400",
+      "createdAt": "2024-01-10T13:40:30.777Z"
+    },
+    {
+      "id": "2",
+      "description": "Comprar cota",
+      "type": "outcome",
+      "category": "Compra",
+      "price": "100",
+      "createdAt": "2024-01-10T13:40:30.777Z"
+    },
+    {
+      "id": "3",
+      "description": "Conta de água",
+      "type": "outcome",
+      "category": "Boletos",
+      "price": "200",
+      "createdAt": "2024-01-10T13:40:30.777Z"
+    },
+    {
+      "id": "4",
+      "description": "Aposta da Blaze",
+      "type": "income",
+      "category": "Aposta",
+      "price": "580",
+      "createdAt": "2024-01-10T13:40:30.777Z"
+    }
+  ]
 }
