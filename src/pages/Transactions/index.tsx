@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { useContextSelector } from 'use-context-selector'
 import { Header } from '../../components/Header/index.tsx'
 import { SearchForm } from '../../components/SearchForm/index.tsx'
 import { Summary } from '../../components/Summary/index.tsx'
@@ -9,8 +9,11 @@ import {
 } from './styles.ts'
 import { TransactionsContext } from '../../contexts/TransactionsContext.tsx'
 import { dateFormatter, priceFormatter } from '../../utils/formatter.ts'
+
 export function Transactions() {
-  const { transactions } = useContext(TransactionsContext)
+  const transactions = useContextSelector(TransactionsContext, (context) => {
+    return context.transactions
+  })
 
   return (
     <div>
